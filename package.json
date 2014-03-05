@@ -1,0 +1,40 @@
+{
+  "name": "gulp-csscssfont64",
+  "version": "0.0.1",
+  "description": "Replaces content within a HTML/DOM structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/247even/gulp-csscssfont64"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": {
+    "name": "247even",
+    "url": "https://github.com/247even"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "~2.2.14",
+    "through2": "~0.4.1",
+    "cheerio": "~0.13.1",
+    "mime": "~1.2.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/247even/gulp-cssfont64/issues"
+  },
+  "homepage": "https://github.com/247even/gulp-cssfont64",
+  "_id": "gulp-cssfont64@0.0.1",
+  "_from": "gulp-cssfont64@"
+}
