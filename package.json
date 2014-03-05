@@ -1,7 +1,7 @@
 {
   "name": "gulp-csscssfont64",
   "version": "0.0.1",
-  "description": "Replaces content within a HTML/DOM structure",
+  "description": "Encode base64 data from font-files and store the result in a css file.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -11,7 +11,7 @@
     "url": "https://github.com/247even/gulp-csscssfont64"
   },
   "keywords": [
-    "gulpplugin"
+    "gulpplugin", "encode", "base64", "font", "css", "ttf"
   ],
   "author": {
     "name": "247even",
