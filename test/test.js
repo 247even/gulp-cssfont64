@@ -9,7 +9,7 @@ describe('gulp-cssfont64', function() {
 
 		it('should encode fonts to base64 and generate a css file', function(done) {
 
-			var filename = path.join(__dirname, '/fixtures/Roboto-Regular.ttf');
+			var filename = path.join(__dirname, '/fixtures/myfont.ttf');
 
 			var input = new gutil.File({
 				base: path.dirname(filename),
@@ -20,7 +20,7 @@ describe('gulp-cssfont64', function() {
 			var stream = cssfont64();
 
 			stream.on('data', function(newFile) {
-				assert.equal(String(newFile.contents), fs.readFileSync(path.join(__dirname, '/fixtures/Roboto-Regular.css'), 'utf8'));
+				assert.equal(String(newFile.contents), fs.readFileSync(path.join(__dirname, '/fixtures/myfont.css'), 'utf8'));
 				done();
 			})
 
