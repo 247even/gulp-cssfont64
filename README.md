@@ -1,4 +1,4 @@
-# gulp-cssfont64 [![Build Status](https://travis-ci.org/247even/gulp-cssfont64.png?branch=master)](https://travis-ci.org/247even/gulp-cssfont64)
+# gulp-cssfont64 [![Build Status](https://travis-ci.org/247even/gulp-cssfont64.png?branch=master)](https://travis-ci.org/247even/gulp-cssfont64) [![NPM version](https://badge.fury.io/js/gulp-cssfont64.png)](http://badge.fury.io/js/gulp-cssfont64) [![GitHub version](https://badge.fury.io/gh/247even%2Fgulp-cssfont64.png)](http://badge.fury.io/gh/247even%2Fgulp-cssfont64)
 
 Encode base64 data from font-files and store the result in a css file.
 
